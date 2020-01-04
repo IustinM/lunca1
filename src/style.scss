@@ -1,5 +1,5 @@
 @import 'reset';
-:root {
+    :root {
     --color-scorpion: #5f5f5f;
     --color-white: #fff;
     --color-fruit-salad: #4caf50;
@@ -79,6 +79,11 @@ nav{
         &:hover{
             background-color: var(--color-scorpion);
             color:var(--color-white)
+        }
+
+        &.current{
+            background-color: var(--color-fruit-salad);
+            color: var(--color-white);
         }
     }
 }
